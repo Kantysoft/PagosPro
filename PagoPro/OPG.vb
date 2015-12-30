@@ -344,6 +344,7 @@ Public Class OPG
     End Function
 
     Private Sub OPG_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        'iNICIO DEL LOAD
         cargarComboRazonSocial()
         cargarComboModoPago()
         'txtCuentaDebito.Enabled = False
